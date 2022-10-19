@@ -14,7 +14,14 @@ The downward-looking RGB camera was a DJI-FC6310R with a 5472×3648 resolution. 
   
  ## Annotated Data
   Data were annotated using V7 image annotation tool. The company was selected because its annotation software is designed to speed up the annotation of images with a relatively large overlap area. Annotations include 16 different classes (including the “void” class of unannotated pixels. The next figures show the statistical distribution. The challenges of the dataset are clearly observable from the plot.
-  ![class population histogram](./images/class_hist_both.png)
+  Class Population Histogram |
+  :-------------------------:|
+  ![class population histogram](./images/class_hist_both.png) |
+  
+  Original Image             |  Ground Truth Annotation
+:-------------------------:|:-------------------------:
+![original image](./images/HYPERLAPSE_0289_img.JPG)  |  ![GT image](./images/HYPERLAPSE_0289_GT.png)
+  
  ## Folder structure
   
  ## Dataset Download
