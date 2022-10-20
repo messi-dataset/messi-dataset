@@ -33,9 +33,7 @@ The downward-looking RGB camera was a DJI-FC6310R with a 5472×3648 resolution. 
  ## Folder structure
   
   <pre>
-  Folder PATH listing
-Volume serial number is 000000DA 3CE1:97E2
-O:\ALTA\MESSI DATASET
+MESSI DATASET
 ├───Test
 │   ├───6DOF
 │   │   ├───Ha-Medinah Square
