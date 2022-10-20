@@ -17,10 +17,14 @@ The downward-looking RGB camera was a DJI-FC6310R with a 5472×3648 resolution. 
   Class Population Histogram |
   :-------------------------:|
   ![class population histogram](./images/class_hist_both.png) |
+ 
+  Org GT montage |
+  :-------------------------:|
+   ![class population histogram](./images/montage 2.png) |
   
-  Original Image             |  Ground Truth Annotation
-:-------------------------:|:-------------------------:
-![original image](./images/HYPERLAPSE_0289_img.JPG)  |  ![GT image](./images/HYPERLAPSE_0289_GT.png)
+ <!--  (Original Image             |  Ground Truth Annotation) -->
+<!--  (:-------------------------:|:-------------------------:) -->
+<!--  (![original image](./images/HYPERLAPSE_0289_img.JPG)  |  ![GT image](./images/HYPERLAPSE_0289_GT.png)) -->
   
  ## Folder structure
   
