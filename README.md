@@ -33,17 +33,48 @@ The downward-looking RGB camera was a DJI-FC6310R with a 5472×3648 resolution. 
  ## Folder structure
   
   <pre>
-  MESSI DATASET
+  Folder PATH listing
+Volume serial number is 000000DA 3CE1:97E2
+O:\ALTA\MESSI DATASET
 ├───Test
+│   ├───6DOF
+│   │   ├───Ha-Medinah Square
+│   │   │   └───Path
+│   │   │       └───60
+│   │   └───IrYamim
+│   │       └───Path
+│   │           ├───30
+│   │           ├───...
+│   │           └───100
 │   └───images
 │       ├───Ha-Medinah Square
 │       │   └───Path
-│       └───Ir yamim
-│           ├───100
-│           ├───30
-│           ├───50
-│           └───70
+│       │       └───60
+│       └───IrYamim
+│           └───Path
+│               ├───30
+│               ├───...
+│               └───100
 └───Train and Val
+    ├───6DOF
+    │   └───Agamim
+    │       ├───Descend
+    │       │   ├───100_0001
+    │       │   ├───...
+    │       │   └───100_0043
+    │       └───Path
+    │           ├───A
+    │           │   ├───30
+    │           │   ├───...
+    │           │   └───100
+    │           ├───B
+    │           │   ├───30
+    │           │   ├───...
+    │           │   └───100
+    │           └───C
+    │               ├───30
+    │               ├───...
+    │               └───100
     ├───annotations
     │   └───Agamim
     │       ├───Descend
@@ -52,20 +83,17 @@ The downward-looking RGB camera was a DJI-FC6310R with a 5472×3648 resolution. 
     │       │   └───100_0043
     │       └───Path
     │           ├───A
-    │           │   ├───100
     │           │   ├───30
-    │           │   ├───50
-    │           │   └───70
+    │           │   ├───...
+    │           │   └───100
     │           ├───B
-    │           │   ├───100
     │           │   ├───30
-    │           │   ├───50
-    │           │   └───70
+    │           │   ├───...
+    │           │   └───100
     │           └───C
-    │               ├───100
     │               ├───30
-    │               ├───50
-    │               └───70
+    │               ├───...
+    │               └───100
     └───images
         └───Agamim
             ├───Descend
@@ -74,21 +102,17 @@ The downward-looking RGB camera was a DJI-FC6310R with a 5472×3648 resolution. 
             │   └───100_0043
             └───Path
                 ├───A
-                │   ├───100
                 │   ├───30
-                │   ├───50
-                │   └───70
+                │   ├───...
+                │   └───100
                 ├───B
-                │   ├───100
                 │   ├───30
-                │   ├───50
-                │   └───70
+                │   ├───...
+                │   └───100
                 └───C
-                    ├───100
                     ├───30
-                    ├───50
-                    └───70
-
+                    ├───...
+                    └───100
   </pre>
 
  ## Dataset Download
