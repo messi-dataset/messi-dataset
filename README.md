@@ -15,13 +15,15 @@ The downward-looking **RGB camera** was a **DJI-FC6310R** with a **5472×3648 re
  ## Annotated Data
   Images were annotated using the [V7](https://www.v7labs.com/) image annotation tool, designed to speed up the annotation of images captured with a relatively large overlap area. Annotations include **16 classes** (including the “void” class of unannotated pixels). 
  
-  <p align="center">
-    <img src="images/class_hist_both.png" alt="Class Population Histogram" height="519px" width="571px">
+  ![class population histogram](./images/class_hist_both.png)
+  
+  <!--  <p align="center"> 
+     <img src="images/class_hist_both.png" alt="Class Population Histogram" height="519px" width="571px"> -->
     
     
   <!--  Class Population Histogram | -->
   <!--  :-------------------------:| -->
-  <!--  ![class population histogram](./images/class_hist_both.png) |
+  <!--  ![class population histogram](./images/class_hist_both.png) | -->
  
   
    
