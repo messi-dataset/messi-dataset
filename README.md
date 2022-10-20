@@ -13,10 +13,16 @@ MESSI is made available to the general research community to facilitate the deve
 The downward-looking RGB camera was a DJI-FC6310R with a 5472×3648 resolution. Images were taken so that two subsequent ones have an approximately 70% overlap between images. The INS/GPS uses RTK positioning for maximum accuracy. Orientation was obtained from a magnetometer carefully placed on the platform to minimize magnetic disturbances.
   
  ## Annotated Data
+  
   Data were annotated using V7 image annotation tool. The company was selected because its annotation software is designed to speed up the annotation of images with a relatively large overlap area. Annotations include 16 different classes (including the “void” class of unannotated pixels. The next figures show the statistical distribution. The challenges of the dataset are clearly observable from the plot.
-  Class Population Histogram |
-  :-------------------------:|
-  ![class population histogram](./images/class_hist_both.png) |
+ 
+  <p align="center">
+    <img src="images/class_hist_both.png" alt="Class Population Histogram" height="519px" width="571px">
+    
+    
+  <!--  Class Population Histogram | -->
+  <!--  :-------------------------:| -->
+  <!--  ![class population histogram](./images/class_hist_both.png) |
  
   
    
@@ -26,4 +32,63 @@ The downward-looking RGB camera was a DJI-FC6310R with a 5472×3648 resolution. 
   
  ## Folder structure
   
+  <pre>
+  MESSI DATASET
+├───Test
+│   └───images
+│       ├───Ha-Medinah Square
+│       │   └───Path
+│       └───Ir yamim
+│           ├───100
+│           ├───30
+│           ├───50
+│           └───70
+└───Train and Val
+    ├───annotations
+    │   └───Agamim
+    │       ├───Descend
+    │       │   ├───100_0001
+    │       │   ├───...
+    │       │   └───100_0043
+    │       └───Path
+    │           ├───A
+    │           │   ├───100
+    │           │   ├───30
+    │           │   ├───50
+    │           │   └───70
+    │           ├───B
+    │           │   ├───100
+    │           │   ├───30
+    │           │   ├───50
+    │           │   └───70
+    │           └───C
+    │               ├───100
+    │               ├───30
+    │               ├───50
+    │               └───70
+    └───images
+        └───Agamim
+            ├───Descend
+            │   ├───100_0001
+            │   ├───...
+            │   └───100_0043
+            └───Path
+                ├───A
+                │   ├───100
+                │   ├───30
+                │   ├───50
+                │   └───70
+                ├───B
+                │   ├───100
+                │   ├───30
+                │   ├───50
+                │   └───70
+                └───C
+                    ├───100
+                    ├───30
+                    ├───50
+                    └───70
+
+  </pre>
+
  ## Dataset Download
