@@ -8,7 +8,9 @@
 To circumvent this difficulty, a new dataset was collected using images taken by a drone flying at different altitudes in a relatively dense urban environment. The data was collected flying on a single day over selected areas of the cities of Netanya and Tel Aviv at altitudes that vary from **30, 50, 70, and 100 m** and following several straight paths. In addition, images were taken while the drone descended over specific points to facilitate a correlation study of the different segmented results. The dataset consists of **2525 images** taken using a high-resolution, downward-looking RGB camera mounted on a remote-control drone. The drone was flown by [ALTA INNOVATION](https://alta.team/), a local company licensed to fly over urban areas. [V7](https://www.v7labs.com/) was contracted to provide dense-pixel-wise annotations using its data labeling software. In addition to the annotated images, the dataset contains localization data computed by the drone using an INS/GPS navigation system.
 MESSI is made available to the general research community to facilitate the development of new algorithms for semantic segmentation in an urban environment. The dataset can also be used for exploring new visual odometry algorithms in urban environments.
 ![Org GT montage](./images/montage2.png)
-![mv](./images/DJI_0031.mp4)
+[![mv]()](./images/DJI_0031.mp4)
+![descend]([./images/DJI_0031.mp4](https://github.com/messi-dataset/messi-dataset/blob/main/images/DJI_0031.MP4))
+
 
 ## Platform and Equipment
   The drone used to collect images is a remotely controlled **DJI MAVIC 2 PRO**. Due to regulation limitations, the drone was flown at line-of-sight over streets.
