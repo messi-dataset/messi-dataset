@@ -18,7 +18,7 @@ https://user-images.githubusercontent.com/116140125/197382918-5e70e27c-f3e2-4feb
 
 ## Platform and Equipment
   The drone used to collect images is a remotely controlled **DJI MAVIC 2 PRO**. Due to regulation limitations, the drone was flown at line-of-sight over streets.
-The downward-looking **RGB camera** was a **DJI-FC6310R** with a **5472×3648 resolution**. Images were taken so that two subsequent ones have an approximately 70% overlap between images. The **INS/GPS** uses **RTK positioning** for maximum accuracy. Orientation was obtained from a magnetometer carefully placed on the platform to minimize magnetic disturbances.
+The downward-looking **RGB camera** was a **DJI-FC6310R** with a **5472×3648 resolution**. Images in Agamim Path and IrYamim Path were captured so that the two subsequent ones have an approximately 75% overlap between images. Images in Agamim Descend were captured between about 120 m and 10 m, every 1 m, with decreasing overlap between images. The **INS/GPS** uses **RTK positioning** for maximum accuracy. Orientation was obtained from a magnetometer carefully placed on the platform to minimize magnetic disturbances.
   
  ## Annotated Data
   Images were annotated using the [V7](https://www.v7labs.com/) image annotation tool, designed to speed up the annotation of images captured with a relatively large overlap area. Annotations include **16 classes** (including the “void” class of unannotated pixels). 
