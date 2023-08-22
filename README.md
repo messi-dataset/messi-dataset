@@ -40,7 +40,7 @@ The downward-looking **RGB camera** was a **DJI-FC6310R** with a **5472×3648 re
 <!--  (![original image](./images/HYPERLAPSE_0289_img.JPG)  |  ![GT image](./images/HYPERLAPSE_0289_GT.png)) -->
 ## Benchmark models Inference
 Presented below is an example of the output for each of the models used for the benchmark
-![Benchmark models inference example](./images/models_res.png)
+![Benchmark models inference example](./images/models_res3.png)
 ## Folder structure
   
   <pre>
