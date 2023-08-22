@@ -124,7 +124,7 @@ MESSI DATASET
                     └───100
   </pre>
 
-## Dataset Download
+## Dataset Sample Download
 [Drive Link](https://drive.google.com/drive/folders/1KKKE3QRbXDS-oTKi5N_MKlK2Eid_zKFd?usp=sharing)
 ## Citation
 ```
