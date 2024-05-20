@@ -5,8 +5,8 @@
   
 ## Overview
  Semantic segmentation has recently been proposed as a detection sensor searching for an appropriate landing place in a dense urban environment. This provocative idea is motivated by the availability of drones capable of flying at various altitudes over the environment while taking images with correspondingly diverse spatial resolutions, together with emerging deep learning tools for performing the segmentation in almost real-time. Unfortunately, existing datasets collected by drones fail to provide the altitude (or elevation) richness required to evaluate the new search approach.
-To circumvent this difficulty, a new dataset was collected using images taken by a drone flying at different altitudes in a relatively dense urban environment. The data was collected flying on a single day over selected areas of the cities of Netanya and Tel Aviv at altitudes that vary from **30, 50, 70, and 100 m** and following several straight paths. In addition, images were taken while the drone descended over specific points to facilitate a correlation study of the different segmented results. The dataset consists of **2525 images** taken using a high-resolution, downward-looking RGB camera mounted on a remote-control drone. The drone was flown by [ALTA INNOVATION](https://alta.team/), a local company licensed to fly over urban areas. [V7](https://www.v7labs.com/) was contracted to provide dense-pixel-wise annotations using its data labeling software. In addition to the annotated images, the dataset contains localization data computed by the drone using an INS/GPS navigation system.
-MESSI is made available to the general research community to facilitate the development of new algorithms for semantic segmentation in an urban environment. The dataset can also be used for exploring new visual odometry algorithms in urban environments.
+To circumvent this difficulty, a new dataset was collected using images taken by a drone flying at different altitudes in a relatively dense urban environment. The data was collected flying on a single day over selected areas in the cities of Netanya and Tel Aviv at altitudes that vary from **30, 50, 70, and 100 m** and following several straight paths. In addition, images were taken while the drone descended over specific points to facilitate a correlation study of the different segmented results. The dataset consists of **2525 images** taken using a high-resolution, downward-looking RGB camera mounted on a remote-controlled drone. The drone was flown by [ALTA INNOVATION](https://alta.team/), a local company licensed to fly over urban areas. [V7](https://www.v7labs.com/) was contracted to provide dense-pixel-wise annotations using its data labeling software. In addition to the annotated images, the dataset contains localization data computed by the drone using an INS/GPS navigation system.
+MESSI is made available to the general research community to facilitate the development of new algorithms for semantic segmentation in urban environments. The dataset can also be used to explore new visual odometry algorithms in urban environments.
 ![Org GT montage](./images/montage2.png)
 
 
@@ -125,7 +125,9 @@ MESSI DATASET
   </pre>
 
 ## Dataset Sample Download
-[Drive Link](https://drive.google.com/drive/folders/1KKKE3QRbXDS-oTKi5N_MKlK2Eid_zKFd?usp=sharing)
+[Sample Dataset](https://drive.google.com/drive/folders/1KKKE3QRbXDS-oTKi5N_MKlK2Eid_zKFd?usp=sharing)
+[Full Dataset](https://technionmail-my.sharepoint.com/:f:/r/personal/cis-admin_technion_ac_il/Documents/MESSI%20Dataset?csf=1&web=1&e=VrIKd9)
+
 ## Citation
 ```
 
