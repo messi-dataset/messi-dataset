@@ -1,7 +1,7 @@
 <h1> MESSI: A Multiple-Elevation Semantic Segmentation Image dataset for aerial urban environment exploration
   
 ## Updates
-* 19/10/2022 v1.0 release
+* 23/05/2024 v1.1 release
   
 ## Overview
  Semantic segmentation has recently been proposed as a detection sensor searching for an appropriate landing place in a dense urban environment. This provocative idea is motivated by the availability of drones capable of flying at various altitudes over the environment while taking images with correspondingly diverse spatial resolutions, together with emerging deep learning tools for performing the segmentation in almost real-time. Unfortunately, existing datasets collected by drones fail to provide the altitude (or elevation) richness required to evaluate the new search approach.
