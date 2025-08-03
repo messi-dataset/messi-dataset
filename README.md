@@ -41,12 +41,26 @@ The downward-looking **RGB camera** was a **DJI-FC6310R** with a **5472×3648 re
 ## Benchmark models Inference
 Presented below is an example of the output for each of the models used for the benchmark
 ![Benchmark models inference example](./images/models_res3.png)
+
+## Dataset Sample Download
+[Sample Dataset](https://drive.google.com/drive/folders/1KKKE3QRbXDS-oTKi5N_MKlK2Eid_zKFd?usp=sharing)
+[Full Dataset](https://technionmail-my.sharepoint.com/:f:/r/personal/cis-admin_technion_ac_il/Documents/MESSI%20Dataset?csf=1&web=1&e=VrIKd9)
+
 ## Folder structure
   
   <pre>
 MESSI DATASET
 ├───Test
 │   ├───6DOF
+│   │   ├───Ha-Medinah Square
+│   │   │   └───Path
+│   │   │       └───60
+│   │   └───IrYamim
+│   │       └───Path
+│   │           ├───30
+│   │           ├───...
+│   │           └───100
+│   ├───annotations
 │   │   ├───Ha-Medinah Square
 │   │   │   └───Path
 │   │   │       └───60
@@ -123,11 +137,6 @@ MESSI DATASET
                     ├───...
                     └───100
   </pre>
-
-## Dataset Sample Download
-[Sample Dataset](https://drive.google.com/drive/folders/1KKKE3QRbXDS-oTKi5N_MKlK2Eid_zKFd?usp=sharing)
-[Full Dataset](https://technionmail-my.sharepoint.com/:f:/r/personal/cis-admin_technion_ac_il/Documents/MESSI%20Dataset?csf=1&web=1&e=VrIKd9)
-
 ## Citation
 ```
 
