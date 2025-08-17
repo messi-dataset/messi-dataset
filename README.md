@@ -139,7 +139,16 @@ MESSI DATASET
   </pre>
 ## Citation
 ```
-
+@article{
+pinkovich2025messi,
+title={{MESSI}: A Multi-Elevation Semantic Segmentation Image Dataset of an Urban Environment},
+author={Barak Pinkovich and Boaz Matalon and Ehud Rivlin and Hector Rotstein},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2025},
+url={https://openreview.net/forum?id=ayWqZ1wyIv},
+note={}
+}
 ```
 ## License
 All datasets and code on this page are copyright by us and published under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.
